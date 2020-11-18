@@ -8,4 +8,7 @@ var app = express_1.default();
 app.get('/', function (request, response) {
     return response.json({ message: 'Hello Felp' });
 });
+app.get('/', function (request, response) {
+    return response.json({ message: 'Hello Felp2' });
+});
 app.listen(3333);
